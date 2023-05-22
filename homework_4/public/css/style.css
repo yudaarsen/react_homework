@@ -1,0 +1,21 @@
+h1 {
+    font-size: 36px;
+  }
+  
+  #chatbox {
+    border: 1px solid #ddd;
+    border-bottom-width: 0;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  #chatbox > div:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  #chatbox > div:nth-child(even) {
+    background: #ffffff;
+  }
+  
+  .nopadding {
+    padding: 0 !important;
+  }

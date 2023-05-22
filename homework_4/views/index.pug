@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p= desc
+
+  div.col-xs-12#chatbox
+  div.input-group
+    input(type='text', class='form-control', placeholder='Имя' autofocus)
+    span.input-group-btn
+      button(class='btn btn-default', type='button') Войти
